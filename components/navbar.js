@@ -1,4 +1,4 @@
-export default Vue.component('navbar', {
+export default  {
     template: `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <router-link to="/" class="navbar-brand" href="#">Chih's Dev Pool</router-link>
@@ -17,4 +17,4 @@ export default Vue.component('navbar', {
     </div>
   </nav>
     `
-  })
+}
